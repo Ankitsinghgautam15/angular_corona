@@ -44,7 +44,9 @@
                  </div>
              </div>  
             <input type="text"class="form-control mt-4" placeholder="enter country here" ng-model="c" ng-change="get_c_data()">
-            <div class="row text-center mt-4" ng-if="c_data">
+             <div class="container-fluid"ng-if="c_data">
+            <h1 class="row-text-center mt-4 text-uppercase">{{c}} Status</h1>
+            <div class="row text-center mt-4" >
                
                 <div class="col-md-4">
                     <div class="card bg-warning text-white">
@@ -71,7 +73,7 @@
                    </div>
                 </div>
             </div> 
-
+        </div>
 
         </div>
 
